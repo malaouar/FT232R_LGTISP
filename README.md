@@ -16,9 +16,14 @@ The PB5 LED blinks as expected in the two cases.
 Can some one, please, geuss what's going wrong in the 2nd case (using FT232R)? 
 
 =========================================================
+
 Resources:
+
 https://github.com/LGTMCU/LarduinoISP
+
 https://github.com/nicechao/ISP4LGT8F328P
+
 https://oshwhub.com/brother_yan/LGTISP
+
 https://github.com/SuperUserNameMan/LGTISP
 
