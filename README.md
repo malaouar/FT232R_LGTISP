@@ -15,6 +15,28 @@ The PB5 LED blinks as expected in the two cases.
 
 Can some one, please, geuss what's going wrong in the 2nd case (using FT232R)? 
 
+Usage:
+
+  1- compile this program using mingw, dont' forget ftd2xx.lib and ftd2xx.h
+  
+  you get : lgtdude.exe
+  
+  2- build then convert your LGT program to flat binary format using avr-objcopy:
+  
+  avr-objcopy -I ihex -O binary myprog.hex myprog.bin
+  
+  3-run lgtdude
+  
+  lgtdude.exe myprog.bin
+
+NOTE:
+
+ TX  ==> clk
+ 
+ RX ==>  reset 
+ 
+ DTR ==>  data
+
 =========================================================
 
 Resources:
